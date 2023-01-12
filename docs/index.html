@@ -5,16 +5,38 @@
   body {
     padding-top : 40px;
     padding-bottom : 40px;
+    background-color: #faeee7;
   }
-  
+  .name{
+
+    color:#004643;
+    display : flex;
+    justify-content: center;
+  }
+
+  .banner {
+    justify-content: center;
+    display: flex;
+  }
   .banner-image {
   width: 150px;
   height:150px;
   object-fit: cover;
   border-radius: 150px;
+    }
 
+  .link {
+    background-color: #abd1c6;
+    display: flex;
+  align-items: center;
   }
 
+  .link a {
+  color: #004643;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1000;
+  }
   .thumbnail {
     width:50px;
     height:50px;
@@ -22,6 +44,12 @@
   border-radius: 50px;
   }
 
+  .items {
+    display : flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 450px;
+  }
     </style>
   <head>
     <title>Christina Lim linkinbio</title>
@@ -31,6 +59,7 @@
 
  
   <body>
+    <div class = "items">
     <div class="banner">
     <img src="/thumbnails/headshot.jpg" alt="Christina Lim headshot" class="banner-image">
    </div>
@@ -74,4 +103,5 @@
    </a>
 </div>
 
+</div>
 </body>
